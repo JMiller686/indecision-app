@@ -70,18 +70,27 @@
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils_js__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__utils_js__);
 
 
 console.log(square(4));
 
+
+
+
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+/* unused harmony export square */
 console.log('utils.js is running!');
 
 const square = (x) => x * x;
+
+// named export -> not an object -> reference to the name of the function you are trying to export
+
+
+//exports - default export - named exports
 
 /***/ })
 /******/ ]);
